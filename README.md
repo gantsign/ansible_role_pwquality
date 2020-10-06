@@ -13,7 +13,7 @@ to the PAM config.
 Requirements
 ------------
 
-* Ansible >= 2.7
+* Ansible >= 2.8
 
 * Linux Distribution
 
