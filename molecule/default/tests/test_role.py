@@ -1,11 +1,3 @@
-import os
-
-import testinfra.utils.ansible_runner
-
-testinfra_hosts = testinfra.utils.ansible_runner.AnsibleRunner(
-    os.environ['MOLECULE_INVENTORY_FILE']).get_hosts('all')
-
-
 def test_pwquality(host):
     pwquality = host.file('/etc/security/pwquality.conf')
     assert pwquality.exists
