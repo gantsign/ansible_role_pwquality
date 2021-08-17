@@ -1,7 +1,7 @@
 Ansible Role: pwquality
 =======================
 
-[![Build Status](https://travis-ci.com/gantsign/ansible_role_pwquality.svg?branch=master)](https://travis-ci.com/gantsign/ansible_role_pwquality)
+[![Tests](https://github.com/gantsign/ansible_role_pwquality/workflows/Tests/badge.svg)](https://github.com/gantsign/ansible_role_pwquality/actions?query=workflow%3ATests)
 [![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-gantsign.pwquality-blue.svg)](https://galaxy.ansible.com/gantsign/pwquality)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gantsign/ansible_role_pwquality/master/LICENSE)
 
